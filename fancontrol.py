@@ -10,7 +10,7 @@ import stat
 from io import BytesIO
 from subprocess import check_output, Popen, PIPE, STDOUT, CalledProcessError
 
-devices_to_check = ['/dev/sg*', '/dev/ses*', '/dev/bsg/*']
+devices_to_check = ['/dev/sg*', '/dev/ses*', '/dev/bsg/*', '/dev/es/*']
 
 
 def usage():
